@@ -2,16 +2,16 @@
 
 A Python command-line tool that evaluates the strength of user-entered passwords, checks their length, complexity, and uniqueness, suggests stronger alternatives, and optionally prevents reuse of previously used passwords using a securely hashed local history.
 
-> Built as part of the **Cyber Security Virtual Internship – Mini Project 1** (Thiranex – Skill Development & Future Tech).
+> Built as part of the **Cyber Security Virtual Internship – Mini Project** .
 
 ## 📋 Features
 
-- ✅ **Length check** — flags passwords under 8 characters, rewards longer ones
-- ✅ **Complexity check** — verifies presence of lowercase, uppercase, digits, and symbols
-- ✅ **Uniqueness check** — detects common/leaked passwords, repeated characters (`aaa`), and keyboard/alphabet sequences (`1234`, `qwerty`)
-- ✅ **Strength scoring** — combines all checks into a percentage score and verdict: `VERY WEAK` → `WEAK` → `MODERATE` → `STRONG` → `VERY STRONG`
-- ✅ **Smart suggestions** — offers both an improved version of your existing password and a randomly generated strong password
-- ✅ **(Optional) Password reuse prevention** — stores a **SHA-256 hash** (never the plaintext) of previously used passwords in `password_history.json` and warns if you try to reuse one
+-  **Length check** — flags passwords under 8 characters, rewards longer ones
+-  **Complexity check** — verifies presence of lowercase, uppercase, digits, and symbols
+-  **Uniqueness check** — detects common/leaked passwords, repeated characters (`aaa`), and keyboard/alphabet sequences (`1234`, `qwerty`)
+-  **Strength scoring** — combines all checks into a percentage score and verdict: `VERY WEAK` → `WEAK` → `MODERATE` → `STRONG` → `VERY STRONG`
+-  **Smart suggestions** — offers both an improved version of your existing password and a randomly generated strong password
+-  **(Optional) Password reuse prevention** — stores a **SHA-256 hash** (never the plaintext) of previously used passwords in `password_history.json` and warns if you try to reuse one
 
 ## 🛠️ Tech Stack
 
